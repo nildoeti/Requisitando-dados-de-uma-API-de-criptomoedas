@@ -1,11 +1,10 @@
     //My api key
     var apikey = {
-        key: '943a7bb4-5a52-420a-8e4e-01b54b23c408'
+        key: '2676957c-4ee4-4635-953b-e898af38b66f'
     }
 
 //GET Fetch Requisition
-fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' +
-        apikey.key)
+fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' + apikey.key)
     .then((response) => {
         if (!response.ok) throw new Error('Erro ao executar a requisição, status ' + response.status);
         return response.json();
@@ -37,4 +36,6 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY='
     .catch((error) => {
         console.error(error.message);
     });
-    
+
+
+    pro.coinmarketcap.com/account
