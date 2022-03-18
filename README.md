@@ -8,5 +8,7 @@ informações em uma página web responsiva.
 
 Para maiores informações sobre  **CoinMarketCap API**:
 [ Portal do desenvolvedor ](https://pro.coinmarketcap.com/account)
+
 [ Documetação de autenticação ](https://coinmarketcap.com/api/documentation/v1/#section/Authentication)
+
 [ Documentação API ](https://coinmarketcap.com/api/documentation/v1/#)
